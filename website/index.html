@@ -26,10 +26,19 @@
       <label for="genre">Genre:</label>
       <input type="text" id="genre" required>
 
-      <button type="submit">Add Book</button>
+      <button>Add Book</button>
     </form>
 
     <div id="message"></div>
+    <div>
+      <h2>Search by Genre</h2>
+      <input type="text" class="genreFilterInput" placeholder="Enter genre to filter">
+      <button class="js-filter-button">Filter</button>
+      <button class="js-show-all-books">
+        Show all books
+      </button>
+     </div>
+
     <div id="bookList"></div>
   </div>
 
